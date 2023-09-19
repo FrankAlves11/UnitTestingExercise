@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 namespace UnitTestingExercise
 {
     public class Calculator
@@ -7,7 +7,7 @@ namespace UnitTestingExercise
 
         // Right-click on the 'Dependencies' folder in your UnitTestingExercise.Tests project
         // and add your reference to the UnitTestingExercise project
-
+        
 
 
         // Step 2: Create an Add method that accepts 3 integers, adds those integers, and returns an integer
@@ -16,10 +16,22 @@ namespace UnitTestingExercise
         {
             return num1 + num2 + num3;
         }
+         
+         public int Subtract(int num1 , int num2)
+         {
+            return num1 - num2;
 
+         }
 
-        // Step 3: Navigate to the UnitTests.cs file and complete the AddTest unit test method 
+        public int Multiply(int num1, int num2)
+        {
+            return (num1 * num2);
+        }
 
+        public int Divide(int num1, int num2)
+        {
+            return num1 / num2;
+        }
 
         // Step 4: 
         // Create a Subtract method that accepts 2 integers
