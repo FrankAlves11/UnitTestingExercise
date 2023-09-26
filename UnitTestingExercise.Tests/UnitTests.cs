@@ -15,7 +15,9 @@ namespace UnitTestingExercise.Tests
             Calculator instance = new Calculator();
 
             int actual = instance.Add(num1, num2, num3);
-            
+
+            Assert.Equal(expected, actual);
+
         }
 
         [Theory]
